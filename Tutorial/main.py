@@ -68,6 +68,41 @@ print(sum)
 # x = letter[0:4]
 # print(x)
 
-letter = "        Life is about making adjustment along the way. Grow up      "
-trail = letter.strip()
-print(trail)
+# letter = "        Life is about making adjustment along the way. Grow up      "
+# trail = letter.strip()
+# print(trail)
+
+# letter = "Life is about making adjustment along the way. Grow up!"
+# up = letter.upper()
+# print(up)
+
+# letter = "Life is about making adjustment along the way. Grow up!"
+# low = letter.lower()
+# print(low)
+
+# letter = "Hello"
+# rep = letter.replace("H", "J")
+# print(rep)
+
+# age = 36
+# txt = "My name is John, and I am {}"
+# print(txt.format(age))
+
+# print(50 * 460)
+
+# cars = ['Toyota', 'BMW', 'Mercedes', 'VW', 'VW']
+# if "TATA" in cars:
+#     print("Toyota is in Cars")
+# elif "BMW" in cars:
+#     print("Car Found Not TATA")
+# else:
+#     print("Not Found")
+
+# cars = ['Toyota', 'BMW', 'Mercedes', 'VW', 'VW']
+# print(len(cars))
+
+# cars = ['Toyota', 'BMW', 'Mercedes', 'VW', 'VW']
+# print(cars[0])
+
+cars = ('Toyota', 'BMW', 'Mercedes', 'VW', 'VW')
+print(cars[2:5])
