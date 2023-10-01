@@ -40,17 +40,29 @@
 
 # print(random.randrange(1, 10))
 
-x = int(3)
-y = int(10.4)
-z = int("8")
+# x = int(3)
+# y = int(10.4)
+# z = int("8")
 
-print(x, y, z)
+# print(x, y, z)
 
-x = "Python Good"
-print(x)
+# x = "Python Good"
+# print(x)
 
-x = """Lorem ipsum dolor sit amet,
-consectetur adipiscing elit,
-sed do eiusmod tempor incididunt
-ut labore et dolore magna aliqua."""
-print(x)
+# x = """Lorem ipsum dolor sit amet,
+# consectetur adipiscing elit,
+# sed do eiusmod tempor incididunt
+# ut labore et dolore magna aliqua."""
+# print(x)
+
+x = 10
+y = 3
+result = x / y
+print(result)
+
+name = 'abc'
+print(len(name))
+
+list = ['Python', 'Developers']
+res = [i for i in list if len(i) > 6]
+print(*res)
