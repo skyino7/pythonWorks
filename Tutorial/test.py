@@ -98,8 +98,9 @@
 # for i in [1, 2, 3, 4]:
 #     print(i, end=" ")
 
-# a = {'id': 89, 'name': "John", 'projects': [1, 2, 3, 4]}
-# a.get('projects')
+a = {'id': 89, 'name': "John", 'projects': [1, 2, 3, 4]}
+b = a.get('projects')
+print(b)
 
 # for i in range(0, 3):
 #     print(i, end=" ")
@@ -110,10 +111,10 @@
 # for i in [1, 3, 4, 2]:
 #     print(i, end=" ")
 
-list_1 = [1, 2, 3]
-list_2 = [7, 8, 9]
+# list_1 = [1, 2, 3]
+# list_2 = [7, 8, 9]
 
-for list_1[-1] in list_2:
-    pass
+# for list_1[-1] in list_2:
+#     pass
 
-print(list_1)
+# print(list_1)
