@@ -1,5 +1,4 @@
-import cmd
-
+# import cmd
 
 def main():
 
@@ -19,14 +18,20 @@ def main():
         print("2) Lookup a book")
         print("3) Display books")
         print("4) Quit")
-        choice = int(input())
+        choice = int(input("Enter Your Choice (1-4) "))
 
         if choice == 1:
             print("Adding a book...")
-            nBook = input("Enter the name of the book >>> ")
+            nBook = input("Enter the name of the book >>> ").strip()
             nAuthor = input("Enter the name of the Author >>> ")
-            nPages = input("Enter the number of pages >>> ")
+            nPages = int(input("Enter the number of pages >>> "))
             booksList.append([nBook, nAuthor, nPages])
+        elif choice == 2:
+            print("Searching for a book...")
+            keyword = input("Enter Search Term: ")
+            for book in booksList:
+                if keyword in book:
+                    print(book)
 
 
 if __name__ == "__main__":
