@@ -9,5 +9,5 @@ for i in li:
     else:
         odd.append(i)
 
-    print("Even Numbers: ", even)
-    print("Odd Numbers: ", odd)
+print("Even Numbers: ", even)
+print("Odd Numbers: ", odd)
