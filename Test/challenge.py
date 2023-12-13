@@ -2,7 +2,8 @@
 #   combines them, removes duplicates, sorts the combined list and returns it
 
 def merge_arrays(arrayA, arrayB):
-  return
+    sortedArray = sorted(set(arrayA + arrayB))
+    return sortedArray
 
 
 def test():
